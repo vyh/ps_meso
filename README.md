@@ -1,10 +1,8 @@
-================
 About P.S.: Meso
 ================
-
 (author: Nicki Hoffman)
 
-Background //
+Background
 ----------
 Al Filreis of the University of Pennsylvania leads a MOOC on Coursera, called
 Modern and Contemporary American Poetry (a.k.a "ModPo"). Poems studied include
@@ -16,7 +14,7 @@ necessarily follow Cage's rules for mesostics, and moreover, McCabe took it
 down sometime after the MOOC ended in late 2012. A few months after I began 
 learning Python, I decided to try writing my own and see if I could do better.
 
-The program //
+The program
 -----------
 Originally coded in Python 3.3 in April 2013, with minor adjustments to make it
 compatible with Python 2.7, as that is the version supported at the time by 
@@ -34,11 +32,10 @@ The program is to be ported to PHP by ModPo's tech team in early 2015, so that
 it can be mirrored on the university's servers for use in the next iteration of 
 the MOOC.
 
-Original in situ program can be found at: http://vyh.pythonanywhere.com/psmeso/
+Original in situ program can be found at: http://vyh.pythonanywhere.com/psmeso/<br />
 Refactored version here: http://vyh.pythonanywhere.com/psmeso2/
 
 
-===============
 About Mesostics
 ===============
 
@@ -52,13 +49,13 @@ Criteria of a mesostic:
 
   1.  Between 2 spine letters, neither letter may appear in lowercase;
   2.  Limit of 45 characters left of the spine, same to the right;
-  3.  (Cage: "Then I take out the words I don't want."
+  3.  (Cage: "Then I take out the words I don't want."<br />
       My interpretation: Don't add all possible words between spine letters.)
 
 For some of his mesostics, at least, Cage used chance operations based on the 
 I Ching to determine which words to include. More about mesostics in general and 
 Cage's in particular here:
 
-http://everything2.com/title/mesostic
-http://www.writing.upenn.edu/~afilreis/88v/perloff-on-cage-howl.html
+http://everything2.com/title/mesostic<br />
+http://www.writing.upenn.edu/~afilreis/88v/perloff-on-cage-howl.html<br />
 http://www.writing.upenn.edu/~afilreis/88v/cage-quotes.html
