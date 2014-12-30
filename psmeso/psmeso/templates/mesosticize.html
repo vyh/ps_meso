@@ -1,0 +1,23 @@
+{% extends "peregrine.html" %}
+
+{% block title %}P.S.: Meso - A mesostic generator by vyh{% endblock %}
+{% block headline %}P.S.: Meso<br />{% endblock %}
+{% block subhead %}
+<span class="subhead">
+    a spiny poem all your own
+</span>
+{% endblock %}
+
+{% block content %}
+{% autoescape off %}
+<p style="padding-top:6px; padding-bottom:12px">
+    {{ message }}
+</p>
+<pre>
+{% for line in mesostic %}{{ line }}<br />{% endfor %}
+</pre>
+<p style="padding-top: 6px">
+    <a href="/psmeso/">&lt;-- go back</a>
+</p>
+{% endautoescape %}
+{% endblock %}

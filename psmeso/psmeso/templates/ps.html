@@ -1,0 +1,27 @@
+{% extends "peregrine.html" %}
+
+{% block title %}P.S.: Meso - A mesostic generator by vyh{% endblock %}
+
+{% block headline %}P.S.: Meso<br />{% endblock %}
+{% block subhead %}
+<span class="subhead">
+    "Poesis Spinea"<br />
+    <span style="font-weight:normal">(A mesostic generator by Nicki Hoffman)</span>
+</span>
+{% endblock %}
+
+{% block content %}
+<p style="padding-top:6px">
+    Enter your source and spine text below, tell it how many times to repeat,
+    and P.S. will take it all and rock your mesostic!
+</p>
+<p>
+    <i>What's a "mesostic,"</i> you ask? <a href="/psmeso/about/">Read about
+    them here</a>. Or just go ahead &amp; try one out!
+</p>
+
+<form action="/psmeso/" method="post">{% csrf_token %}
+    {{ form.as_p }}
+    <p><input type="submit" value="mesosticize it!" /></p>
+</form>
+{% endblock %}

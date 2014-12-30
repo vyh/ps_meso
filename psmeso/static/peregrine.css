@@ -1,0 +1,73 @@
+
+body {
+	font-family : "Trebuchet MS", Helvetica, sans-serif; 
+	font-size : 13px; 
+	color : #202010;
+}
+
+a {
+  color : #3075bb; 
+  text-decoration : none;
+}
+
+a:visited {
+  color : #764b9b;
+}
+
+a:hover {
+  color : #8fa45d;
+}
+
+textarea, select, input[type=text] {
+	border-top : 1px #c0c0dd solid;
+	border-right : 1px #c0c0dd solid;
+	border-bottom : 1px #dfd9dd solid;
+	border-left : 1px #dfd9dd solid;
+	color : #333333;
+	font : inherit;
+	margin-top : 6px;
+}
+
+textarea {
+	min-width : 540px;
+	max-width : 540px;
+	min-height : 150px;
+	max-height : 150px;
+}
+
+div.content {
+	width : 540px;
+}
+
+ul.errorlist {
+	list-style-type : circle;
+	margin : 18px 0 -12px 18px;
+	padding : 0px;
+}
+
+.errorlist li {
+	margin : 0px;
+	padding : 0px;
+	color : #990000;
+}
+
+.headline {
+  font-family : "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size : 24px; 
+  font-variant : small-caps;
+  font-weight : bold;
+  text-align : center;
+}
+     
+.subhead {
+  font-family : "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size : 14px;
+  font-style : italic;
+  font-variant : normal;
+  color : #005500;
+  margin-top : 6px;
+}
+
+.footnote {
+	font-family : "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
